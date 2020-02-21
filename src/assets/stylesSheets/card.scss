@@ -1,0 +1,106 @@
+.Card {
+  border: solid 1px;
+  border-radius: 20px;
+  height: 175px;
+  width: 210px;
+  border: 2px solid yellow;
+  box-shadow:20px 20px 50px 10px rgba(61, 24, 24, 0.644);
+
+  &__Info p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: large;
+  };
+  
+  &__Image img {
+    height: 70px;
+    padding-top: 10px;
+  }
+}
+
+.flip-horizontal-bottom {
+	animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+.back {
+  color: #ff000000;;
+  background: radial-gradient(red, #7f0808);
+}
+
+
+.Grass {
+  // background-color: #6BA497;
+  background: radial-gradient(#6BA497, #463f3f);
+}
+
+.Fire {
+  // background-color: #FF8F7B;
+  background: radial-gradient(#FF8F7B, #463f3f);
+}
+
+.Water {
+  // background-color: #84C2FF;
+  background: radial-gradient(#84C2FF, #463f3f);
+}
+
+.Bug {
+  // background-color: #CCD77B;
+  background: radial-gradient(#CCD77B, #463f3f);
+}
+
+.Normal {
+  // background-color: #DAD7C9;
+  background: radial-gradient(#DAD7C9, #463f3f);
+}
+
+.Poison {
+  // background-color: #7B30A9;
+  background: radial-gradient(#7B30A9, #463f3f);
+}
+
+.Electric {
+  // background-color: #FFE55B;
+  background: radial-gradient(#FFE55B, #463f3f);
+}
+
+.Ground {
+  // background-color: #C69C05;
+  background: radial-gradient(#C69C05, #463f3f);
+}
+
+.Fairy {
+  // background-color: #EFAEFF;
+  background: radial-gradient(#EFAEFF, #463f3f);
+}
+
+.Psychic {
+  // background-color: #F44987;
+  background: radial-gradient(#F44987, #463f3f);
+}
+
+.Fighting {
+  // background-color: #A99A89;
+  background: radial-gradient(#A99A89, #463f3f);
+}
+
+.Rock {
+  // background-color: #898F71;
+  background: radial-gradient(#898F71, #463f3f);
+}
+
+.Ghost {
+  // background-color: #7465CF;
+  background: radial-gradient(#7465CF, #463f3f);
+}
+
+.Ice {
+  // background-color: #AACEF1;
+  background: radial-gradient(#AACEF1, #463f3f);
+}
+
+.Dragon {
+  // background-color: #C882F3;
+  background: radial-gradient(#C882F3, #463f3f);
+}
+
+
