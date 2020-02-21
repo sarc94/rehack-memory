@@ -1,6 +1,6 @@
 import React ,{ useState, useEffect } from 'react'
 import Board from './board'
-
+import pokemons2 from './pokemons2'
 function Game () {
   const [pokemons, setPokemons] = useState([])
   const numberArray = [...Array(150).keys()].map(x => ++x)
@@ -29,14 +29,17 @@ function Game () {
     }
 
     Promise.all(promises).then(val => {
+      let i = 0
       const arr = []
       for (const obj of val) {
         const {name, types, id,} = obj
         const thePoke ={
+          id: i++,
           name:capitalizeFirstLetter(name),
           types:types.map((type) => capitalizeFirstLetter(type.type.name)).join(', ').split(", ").reverse(),
-          id,
-          img: `https://pokeres.bastionbot.org/images/pokemon/${id}.png`
+          pokeId:id,
+          img: `https://pokeres.bastionbot.org/images/pokemon/${id}.png`,
+          flipped: false
         }
         arr.push(thePoke)
       };
@@ -48,17 +51,13 @@ function Game () {
     huntingPokemon()
   },[])
 
-  useEffect(()=> {
-    if (pokemons.length === 10) {
-      console.log('ya estan los 10', pokemons)
-    }
-  })
- 
+
   return (
-      <Board pokemons = {pokemons}
+      <Board pokemons = {pokemons2}
       shuffle ={shuffle}
       />
   );
+  
 
 }
 
