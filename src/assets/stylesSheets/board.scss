@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  padding: 50px;
+  width: 73%;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+
+}

@@ -1,0 +1,77 @@
+.Card {
+  border: solid 1px;
+  border-radius: 20px;
+  &__Image img {
+    height: 70px;
+    padding-top: 10px;
+  }
+}
+
+.hidden {
+  background-color: black;
+  z-index: 2;
+  
+}
+
+
+.Grass {
+  background-color: #6BA497;
+}
+
+.Fire {
+  background-color: #FF8F7B;
+}
+
+.Water {
+  background-color: #84C2FF;
+}
+
+.Bug {
+  background-color: #CCD77B;
+}
+
+.Normal {
+  background-color: #DAD7C9;
+}
+
+.Poison {
+  background-color: #7B30A9;
+}
+
+.Electric {
+  background-color: #FFE55B;
+}
+
+.Ground {
+  background-color: #C69C05;
+}
+
+.Fairy {
+  background-color: #EFAEFF;
+}
+
+.Psychic {
+  background-color: #F44987;
+}
+
+.Fighting {
+  background-color: #A99A89;
+}
+
+.Rock {
+  background-color: #898F71;
+}
+
+.Ghost {
+  background-color: #7465CF;
+}
+
+.Ice {
+  background-color: #AACEF1;
+}
+
+.Dragon {
+  background-color: #C882F3;
+}
+
+
